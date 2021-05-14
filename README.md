@@ -31,12 +31,12 @@ Installation
 ## Dependencies
 
 - [pyspoa-0.0.3](https://github.com/nanoporetech/pyspoa)
-- [medaka-1.2.6] (https://github.com/nanoporetech/medaka)
-- [minimap2] (https://github.com/lh3/minimap2)
-- [samtools] (http://github.com/samtools/)
-- [bcftools] (https://github.com/samtools/bcftools)
-- [seqkit=0.15 (https://github.com/shenwei356/seqkit)
-- [sratoolkit] (https://github.com/ncbi/sra-tools)
+- [medaka-1.2.6](https://github.com/nanoporetech/medaka)
+- [minimap2](https://github.com/lh3/minimap2)
+- [samtools](http://github.com/samtools/)
+- [bcftools](https://github.com/samtools/bcftools)
+- [seqkit=0.15](https://github.com/shenwei356/seqkit)
+- [sratoolkit](https://github.com/ncbi/sra-tools)
 
 
 ## Usage
