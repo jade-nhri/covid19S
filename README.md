@@ -7,7 +7,7 @@ A bioinformatic protocol for calling spike protein variants of SARS-CoV-2
 
 ``cd covid19S``
 
-``docker build -t "covidS:v1" ./``
+``docker build -t "covid19s:v1" ./``
 
 
 
