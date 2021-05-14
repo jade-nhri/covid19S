@@ -15,7 +15,7 @@ zlib1g-dev \
 libcurl4-gnutls-dev libssl-dev \
 cmake unzip git wget libz-dev vim autoconf python
 
-#Install pyspoa
+#Install pyspoa & medaka1.2.6
 WORKDIR /opt
 RUN wget https://github.com/nanoporetech/pyspoa/releases/download/v0.0.3/pyspoa-0.0.3.tar.gz
 RUN tar -xzvf pyspoa-0.0.3.tar.gz
@@ -39,12 +39,7 @@ RUN autoreconf -i
 RUN ./configure 
 RUN make 
 RUN make install 
-#Install samtools 1.12 
-#WORKDIR /opt 
-#RUN wget https://github.com/samtools/samtools/releases/download/1.12/samtools-1.12.tar.bz2 
-#RUN tar -xjf samtools-1.12.tar.bz2 
-#WORKDIR /opt/samtools-1.12 
-#RUN make 
+
 WORKDIR /opt 
 RUN git clone http://github.com/samtools/samtools.git 
 WORKDIR samtools 
@@ -70,6 +65,5 @@ RUN wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ub
 RUN tar zxvf sratoolkit.current-ubuntu64.tar.gz
 
 WORKDIR /
-#ENV PATH $PATH:/opt:/opt/ncbi-blast-2.11.0+/bin/:/opt/minimap2:/opt/htslib:/opt/bcftools:/opt/samtools-1.12
-ENV PATH $PATH:/opt:/opt/minimap2:/opt/htslib:/opt/bcftools:/opt/samtools-1.12:/opt/sratoolkit.2.11.0-ubuntu64/bin
+ENV PATH $PATH:/opt/covid19S/covid19S/:/opt:/opt/minimap2:/opt/htslib:/opt/bcftools:/opt/samtools-1.12:/opt/sratoolkit.2.11.0-ubuntu64/bin
 
