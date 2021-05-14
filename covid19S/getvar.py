@@ -16,8 +16,8 @@ parser.add_argument('-r', help='the path to the reference sequence')
 parser.add_argument('-q', help='an input folder containing reads in fastq')
 
 
-refpath='/MyData/mnt/nas40T/jade/202102/SRA/Sgene.fasta'
-refpathp='/MyData/mnt/nas40T/jade/202102/SRA/Sprotein.fa'
+refpath='/opt/covid19S/covid19S/Sgene.fasta'
+refpathp='/opt/covid19S/covid19S/Sprotein.fa'
 
 
 argv=sys.argv
