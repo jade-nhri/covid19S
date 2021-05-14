@@ -20,7 +20,7 @@ args = parser.parse_args()
 minlength=3000
 t=100
 bc=''
-ref='/MyData/mnt/nas40T/jade/202102/SRA/Sgene.fasta'
+ref='/opt/covid19S/covid19S/Sgene.fasta'
 
 argv=sys.argv
 if '-i' in argv:
