@@ -23,7 +23,7 @@ WORKDIR /opt/pyspoa
 RUN make
 RUN python3 -m pip install --upgrade pip
 RUN pip install tensorflow==2.2.0
-RUN pip3 install biopython pandas lxml six ete3 medaka
+RUN pip3 install biopython pandas lxml six ete3 medaka==1.2.6
 
 #Install minimap2 
 WORKDIR /opt 
