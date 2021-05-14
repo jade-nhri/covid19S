@@ -15,6 +15,13 @@ zlib1g-dev \
 libcurl4-gnutls-dev libssl-dev \
 cmake unzip git wget libz-dev vim autoconf python
 
+#Download covid19S
+WORKDIR /opt
+RUN git clone https://github.com/jade-nhri/covid19S.git
+WORKDIR /opt/covid19S/covid19S
+RUN chmod +x *.py
+
+
 #Install pyspoa & medaka1.2.6
 WORKDIR /opt
 RUN wget https://github.com/nanoporetech/pyspoa/releases/download/v0.0.3/pyspoa-0.0.3.tar.gz
