@@ -40,6 +40,6 @@ Installation
 
 
 ## Usage
-- [readme](https://www.dropbox.com/s/foqay54fuz0i9yi/Manual%20of%20covidS.pdf?dl=0)
+- [readme](hhttps://www.dropbox.com/s/vz1xb8ywsotgcyw/Manual%20of%20covidS.pdf?dl=0)
 
 
