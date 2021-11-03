@@ -39,6 +39,11 @@ Installation
 - [sratoolkit](https://github.com/ncbi/sra-tools)
 
 
+## FASTQ files
+BC20.fastq, Ct28
+BC59.fastq, Ct31
+https://drive.google.com/drive/folders/1cK9hx2wYnr-OvxfaW0rpS_wv-Dci0sJZ?usp=sharing
+
 ## Usage
 - [readme](https://www.dropbox.com/s/vz1xb8ywsotgcyw/Manual%20of%20covidS.pdf?dl=0)
 
