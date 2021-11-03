@@ -214,7 +214,7 @@ for i in sorted(myfiles):
     mylist.append(filename)
     if int(Nseq)>1:
         print (i)
-        fw.write('{0}\t{1}\n'.format(filename,'No single consensus'))
+        fw.write('{0}\t{1}\n'.format(filename,'multiple-fragment consensus'))
         continue
     f=open(i)
     with f as fp:
@@ -292,7 +292,7 @@ for i in sorted(myfiles):
     if len(d.keys())==1 and not trans:
         print ('{0}\tsingle but not translated'.format(filename))
         fw.write('{0}\t{1}\n'.format(filename,'Segment-missing amplicon'))
-        fwcsv.write('{0},No single consensus,,\n'.format(filename))
+        fwcsv.write('{0},multiple-fragment consensus,,\n'.format(filename))
 
 #print (redofiles)
 
@@ -351,8 +351,8 @@ if '-q' in argv:
     for i in myfqs:
         filename=i.replace('.fastq','')
         if filename not in mylist:
-            fw.write('{0}\tNo single consensus\n'.format(filename))
-            fwcsv.write('{0},No single consensus,,\n'.format(filename))
+            fw.write('{0}\tmultiple-fragment consensus\n'.format(filename))
+            fwcsv.write('{0},multiple-fragment consensus,,\n'.format(filename))
 
 fwcsv.close()
 faw.close()
