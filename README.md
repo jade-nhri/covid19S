@@ -41,7 +41,9 @@ Installation
 
 ## FASTQ files
 BC20.fastq, Ct28
+
 BC59.fastq, Ct31
+
 https://drive.google.com/drive/folders/1cK9hx2wYnr-OvxfaW0rpS_wv-Dci0sJZ?usp=sharing
 
 ## Usage
